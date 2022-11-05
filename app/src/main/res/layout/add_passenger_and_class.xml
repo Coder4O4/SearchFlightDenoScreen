@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="25dp"
+        android:layout_margin="15dp"
+        android:background="@drawable/bac_white_15dp_elv"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center|start"
+            >
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Adult"
+                    android:textSize="17sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="(12+ yrs)"
+                    android:textSize="14sp"
+                    />
+
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/subtractADia"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@drawable/bac_gray_ro"
+                android:padding="10dp"
+                android:src="@drawable/minus"
+                android:tint="@color/black"
+               />
+
+            <TextView
+                android:id="@+id/nubOfAdultDia"
+                android:layout_width="wrap_content"
+                android:layout_height="35dp"
+                android:text="0"
+                android:textSize="17sp"
+                android:gravity="center"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:src="@drawable/add"
+              />
+
+            <ImageView
+                android:id="@+id/addADia"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@drawable/bac_blue_ro"
+                android:padding="8dp"
+                android:src="@drawable/add"
+                android:tint="@color/blue"
+               />
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center|start"
+            android:layout_marginTop="15dp"
+            >
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="20dp"
+                    android:text="Children"
+                    android:textSize="17sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="(2-11 yrs)"
+                    android:textSize="14sp"
+                    />
+
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/subtractCDia"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@drawable/bac_gray_ro"
+                android:padding="10dp"
+                android:src="@drawable/minus"
+                android:tint="@color/black"
+               />
+
+            <TextView
+                android:id="@+id/nubOfChiDia"
+                android:layout_width="wrap_content"
+                android:layout_height="35dp"
+                android:text="0"
+                android:textSize="17sp"
+                android:gravity="center"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:src="@drawable/add"
+              />
+
+            <ImageView
+                android:id="@+id/addCDia"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@drawable/bac_blue_ro"
+                android:padding="8dp"
+                android:src="@drawable/add"
+                android:tint="@color/blue"
+               />
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center|start"
+            android:layout_marginTop="15dp"
+            >
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Infants"
+                    android:textSize="17sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="(Below 2 yrs)"
+                    android:textSize="14sp"
+                    />
+
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/subtractIDia"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@drawable/bac_gray_ro"
+                android:padding="9dp"
+                android:src="@drawable/minus"
+                android:tint="@color/black"
+               />
+
+            <TextView
+                android:id="@+id/nubOfInfDia"
+                android:layout_width="wrap_content"
+                android:layout_height="35dp"
+                android:text="0"
+                android:textSize="17sp"
+                android:gravity="center"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:src="@drawable/add"
+              />
+
+            <ImageView
+                android:id="@+id/addIDia"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@drawable/bac_blue_ro"
+                android:padding="8dp"
+                android:src="@drawable/add"
+                android:tint="@color/blue"
+               />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="25dp"
+            >
+            <TextView
+                android:id="@+id/economy"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:paddingTop="15dp"
+                android:paddingBottom="15dp"
+                android:gravity="center"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:text="Economy"
+                android:textSize="15sp"
+                android:textColor="@color/blue"
+                android:background="@drawable/select_class"
+                />
+
+            <TextView
+                android:id="@+id/businessClass"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:paddingTop="15dp"
+                android:paddingBottom="15dp"
+                android:gravity="center"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:text="Business Class"
+                android:textSize="15sp"
+                android:layout_marginLeft="10dp"
+                android:textColor="@color/grey"
+                android:background="@drawable/bac_gray_ro"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="15dp"
+            >
+            <TextView
+                android:id="@+id/firstClass"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:paddingTop="15dp"
+                android:paddingBottom="15dp"
+                android:gravity="center"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:text="First Class"
+                android:textSize="15sp"
+                android:background="@drawable/bac_gray_ro"
+                />
+
+            <TextView
+                android:id="@+id/premiumEconomy"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="15dp"
+                android:paddingBottom="15dp"
+                android:text="Premium Eco"
+                android:textSize="15sp"
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/bac_gray_ro"
+                />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/selectAtt"
+            android:layout_width="wrap_content"
+            android:layout_height="45dp"
+            android:gravity="center"
+            android:paddingLeft="30dp"
+            android:paddingRight="30dp"
+            android:text="Select"
+            android:layout_marginTop="15dp"
+            android:layout_gravity="right"
+            android:textSize="15sp"
+            android:textColor="@color/white"
+            android:background="@drawable/select_button"
+            />
+
+    </LinearLayout>
+
+</LinearLayout>

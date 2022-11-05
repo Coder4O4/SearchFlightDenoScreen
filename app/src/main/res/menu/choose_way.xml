@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/oneWayMenu"
+        android:title="One Way" />
+    <item
+        android:id="@+id/roundTripMenu"
+        android:title="Round Trip" />
+    <item
+        android:id="@+id/cancelMenu"
+        android:title="Cancel" />
+</menu>
